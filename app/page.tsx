@@ -140,9 +140,9 @@ export default function Home() {
             className="glass-effect rounded-3xl p-8 md:p-12 gold-glow"
           >
             <p className="text-xl md:text-2xl lg:text-3xl text-gray-800 leading-relaxed mb-6 md:mb-8 italic">
-              "O amor é paciente, o amor é bondoso.<br />
+              &ldquo;O amor é paciente, o amor é bondoso.<br />
               Não inveja, não se vangloria,<br />
-              não se orgulha."
+              não se orgulha.&rdquo;
             </p>
             <p className="text-lg md:text-xl text-gold-700 font-semibold">
               1 Coríntios 13:4
