@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Heart, MapPin, Calendar, Clock } from 'lucide-react'
+import { Heart, MapPin, Calendar, Clock, MessageCircle } from 'lucide-react'
 import GoldenParticles from './components/GoldenParticles'
 import PhotoCarousel from './components/PhotoCarousel'
 import GoldenLoading from './components/GoldenLoading'
@@ -109,6 +109,33 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+
+              {/* Divisor */}
+              <div className="border-t border-gold-300/50"></div>
+
+              {/* Botão de Confirmação WhatsApp */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: 1.2 }}
+                className="text-center"
+              >
+                <p className="text-base md:text-lg text-gray-700 mb-4">
+                  Por favor, confirme sua presença até<br className="md:hidden" /> <span className="font-bold text-gold-700">12/10/2025</span>
+                </p>
+                
+                <motion.a
+                  href="https://wa.me/5515997998500?text=Olá%2C%20gostaria%20de%20confirmar%20minha%20presença%20para%20as%20Bodas%20de%20Ouro%20de%20Dília%20e%20Edson%20-%2018%2F10%2F2025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  <span>Confirmar presença</span>
+                </motion.a>
+              </motion.div>
             </div>
           </motion.div>
         </div>
