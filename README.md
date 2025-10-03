@@ -98,6 +98,20 @@ golden-wedding-dilia-edson/
 └── package.json                  # Dependências
 ```
 
+## 📱 Configurar Número do WhatsApp
+
+**IMPORTANTE:** Você precisa atualizar o número do WhatsApp para confirmação!
+
+1. Abra o arquivo `app/page.tsx`
+2. Procure pela linha com `https://wa.me/`
+3. Substitua `5511999999999` pelo seu número no formato internacional:
+   - Brasil: `55` + DDD + Número (ex: `5511987654321`)
+   - Sem espaços, hífens ou parênteses
+
+```typescript
+href="https://wa.me/5511987654321?text=Olá%2C%20gostaria%20de%20confirmar%20minha%20presença"
+```
+
 ## 🖼️ Adicionar/Alterar Fotos
 
 1. Adicione as fotos na pasta `public/`
