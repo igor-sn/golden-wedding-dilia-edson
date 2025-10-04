@@ -41,7 +41,7 @@ export default function Home() {
             className="mb-8 md:mb-12"
           >
             <p className="text-3xl md:text-5xl lg:text-6xl font-serif text-gold-800 mb-4">
-              Dília & Edson
+              Edson & Dília
             </p>
             <div className="flex items-center justify-center gap-4 text-2xl md:text-3xl text-gold-600">
               <span className="font-bold">50</span>
@@ -125,7 +125,7 @@ export default function Home() {
                 </p>
                 
                 <motion.a
-                  href="https://wa.me/5515997998500?text=Olá%2C%20gostaria%20de%20confirmar%20minha%20presença%20para%20as%20Bodas%20de%20Ouro%20de%20Dília%20e%20Edson%20-%2018%2F10%2F2025"
+                  href="https://wa.me/5515997998500?text=Olá%2C%20gostaria%20de%20confirmar%20minha%20presença%20para%20as%20Bodas%20de%20Ouro%20de%20Edson%20e%20Dília%20-%2018%2F10%2F2025"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}

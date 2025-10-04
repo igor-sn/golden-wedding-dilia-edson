@@ -33,7 +33,7 @@ export default function GoldenLoading() {
               className="text-center mb-12"
             >
               <h1 className="text-4xl md:text-5xl font-bold text-gold-700 gold-text-shadow mb-2">
-                Dília & Edson
+                Edson & Dília
               </h1>
               <p className="text-lg md:text-xl text-gold-600">50 Anos de Amor</p>
             </motion.div>

@@ -1,6 +1,6 @@
-# 🎊 Bodas de Ouro - Dília & Edson
+# 🎊 Bodas de Ouro - Edson & Dília
 
-Landing page especial para celebração das Bodas de Ouro (50 anos de casamento) de Dília Miranda e Edson Cabello.
+Landing page especial para celebração das Bodas de Ouro (50 anos de casamento) de Edson Cabello e Dília Miranda.
 
 ## ✨ Características
 
@@ -71,7 +71,7 @@ Envie o link único para todos os convidados via:
 🎊 Convite Especial 🎊
 
 Você está convidado para as Bodas de Ouro
-✨ Dília & Edson ✨
+✨ Edson & Dília ✨
 
 📅 18 de Outubro • ⏰ 19:00h
 📍 Rua Gonçalves Dias, 800
