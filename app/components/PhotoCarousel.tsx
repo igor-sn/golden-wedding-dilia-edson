@@ -7,31 +7,31 @@ import { useState, useEffect } from 'react'
 const photos = [
   {
     src: '/WhatsApp Image 2025-10-02 at 19.32.05.jpeg',
-    alt: 'Dília e Edson - Momento 1',
+    alt: 'Edson e Dília - Momento 1',
   },
   {
     src: '/WhatsApp Image 2025-10-02 at 19.41.00.jpeg',
-    alt: 'Dília e Edson - Momento 2',
+    alt: 'Edson e Dília - Momento 2',
   },
   {
     src: '/WhatsApp Image 2025-10-02 at 19.41.01.jpeg',
-    alt: 'Dília e Edson - Momento 3',
+    alt: 'Edson e Dília - Momento 3',
   },
   {
     src: '/WhatsApp Image 2025-10-02 at 19.53.52.jpeg',
-    alt: 'Dília e Edson - Momento 4',
+    alt: 'Edson e Dília - Momento 4',
   },
   {
     src: '/WhatsApp Image 2025-10-02 at 19.54.03.jpeg',
-    alt: 'Dília e Edson - Momento 5',
+    alt: 'Edson e Dília - Momento 5',
   },
   {
     src: '/WhatsApp Image 2025-10-02 at 19.54.18.jpeg',
-    alt: 'Dília e Edson - Momento 6',
+    alt: 'Edson e Dília - Momento 6',
   },
   {
     src: '/WhatsApp Image 2025-10-02 at 19.59.37.jpeg',
-    alt: 'Dília e Edson - Momento 7',
+    alt: 'Edson e Dília - Momento 7',
   },
 ]
 
